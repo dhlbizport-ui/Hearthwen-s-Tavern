@@ -34,7 +34,7 @@ published through GitHub Pages.
 ================================================================================
 
   Live Website (GitHub Pages):
-    https://YOUR-USERNAME.github.io/hearthwens-tavern/
+    https://github.com/dhlbizport-ui/Hearthwen-s-Tavern
 
   GitHub Repository:
     https://github.com/YOUR-USERNAME/hearthwens-tavern

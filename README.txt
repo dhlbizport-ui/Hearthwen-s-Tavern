@@ -37,7 +37,7 @@ published through GitHub Pages.
     https://github.com/dhlbizport-ui/Hearthwen-s-Tavern
 
   GitHub Repository:
-    https://github.com/YOUR-USERNAME/hearthwens-tavern
+   https://github.com/dhlbizport-ui/Hearthwen-s-Tavern
 
   IMPORTANT: Replace "YOUR-USERNAME" with your actual GitHub username in both
   links above before sharing or submitting this README.

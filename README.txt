@@ -311,54 +311,7 @@ PROBLEM: The cart resets when I navigate between pages.
     - Persisting the cart would require localStorage (future enhancement).
 
 ================================================================================
-11. CUSTOMIZATION GUIDE
-================================================================================
-
-A. CHANGING COLORS
-
-  Open css/paganda.css and modify the hex codes:
-
-    Dark Brown   : #2c1d11  → navbar, headings, buttons
-    Cream        : #faedcd  → logo text, hero headings
-    Forest Green : #538d56  → borders, hover accents
-    Deep Green   : #396c4a  → nav link hover, button hover
-    Warm Green   : #247655  → about box background
-    Off-White    : #fdfbf7  → body background
-    Muted Taupe  : #b8a79b  → alternate section background
-
-B. ADDING NEW PRODUCTS
-
-  1. Open categories.html.
-  2. Find the relevant <section> (snacks, drinks, or workshops).
-  3. Copy an existing product card block and edit it:
-
-       <div class="col-md-4">
-           <div class="product-card card h-100 shadow-sm">
-               <img src="Assets/YOUR-IMAGE.jpg" alt="Product Name" class="product-img card-img-top">
-               <div class="product-info card-body d-flex flex-column">
-                   <h3>Product Name</h3>
-                   <p class="flex-grow-1">Product description here.</p>
-                   <span class="price fw-bold text-success mb-2">₱000</span>
-                   <button class="btn btn-outline-dark btn-sm add-to-cart mt-auto"
-                           data-name="Product Name" data-price="000">Add to Cart</button>
-               </div>
-           </div>
-       </div>
-
-  4. Replace the image, name, description, price, and data attributes.
-  5. Upload the new image to the "Assets" folder on GitHub.
-  6. Commit the change to categories.html.
-
-C. ADDING A NEW CATEGORY
-
-  1. Open categories.html.
-  2. Copy an entire <section> block (e.g., "Snacks").
-  3. Change the id (e.g., id="new-category") and the heading text.
-  4. Replace the product cards with your new products.
-  5. Optionally add a link to it from index.html or the navbar.
-
-================================================================================
-12. FEATURES SUMMARY
+11. FEATURES SUMMARY
 ================================================================================
 
   ✔ Hosted on GitHub Pages (live public URL)
@@ -391,7 +344,7 @@ C. ADDING A NEW CATEGORY
   - No contact form with validation (only email/phone in footer).
 
 ================================================================================
-14. FUTURE ENHANCEMENTS
+12. FUTURE ENHANCEMENTS
 ================================================================================
 
   - Persist cart using localStorage or sessionStorage.
@@ -404,7 +357,7 @@ C. ADDING A NEW CATEGORY
   - Add animations and micro-interactions.
 
 ================================================================================
-15. CONTACT INFORMATION
+13. CONTACT INFORMATION
 ================================================================================
 
   Business Name : Hearthwen's Tavern
@@ -413,7 +366,7 @@ C. ADDING A NEW CATEGORY
   Copyright     : © 2026 Hearthwen's Tavern. All Rights Reserved.
 
 ================================================================================
-16. CREDITS
+14. CREDITS
 ================================================================================
 
   - Bootstrap 5.3.3 (CDN)  : https://getbootstrap.com
